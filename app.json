@@ -1,0 +1,44 @@
+﻿{
+  "pages": [
+          "pages/login/login",
+      "pages/pay/pay",
+ 
+     "pages/index/index",
+    
+    "pages/system/system",
+ 
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "水电缴费系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "utils/images/home.png",
+        "iconPath": "utils/images/home_un.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "utils/images/order.png",
+        "iconPath": "utils/images/order_un.png",
+        "pagePath": "pages/pay/pay",
+        "text": "缴费"
+      },
+      {
+        "selectedIconPath": "utils/images/user.png",
+        "iconPath": "utils/images/user_un.png",
+        "pagePath": "pages/system/system",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

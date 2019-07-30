@@ -1,0 +1,46 @@
+<!--index.wxml-->
+   <!--图片轮播 -->
+<view class='swipercontainer'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" vertical='{{vertical}}' circular='{{circular}}'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+         <image src="{{item}}" class="slide-image swipimg"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+ <!--简介 -->
+ 
+ <view class="list section">
+          <!--养殖场简介 -->
+            <view class="flex-con">
+                <span class="icon icon-wallet2"></span>
+                <text>帐户信息：</text> 
+            </view>
+            <view class="flex-body"> 
+            <text  decode="{{true}}">
+            房间号:&ensp;202 
+             \n
+            帐户余额:&ensp;￥45.3
+            </text>
+            </view>
+        
+            <view class="flex-con">
+                <span class="icon icon-paid"></span>
+                <text>缴费明细：</text> 
+            </view>
+            <view class="flex-body"> 
+            <text  decode="{{true}}">
+            2019-2-4 &ensp;&ensp;&ensp;&ensp;&ensp;  ￥20
+                \n
+            2019-2-14  &ensp;&ensp;&ensp;&ensp; ￥50
+            </text>
+            </view>
+ 
+ 
+ 
+   </view>     
+
+  
+
+ 

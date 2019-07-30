@@ -1,0 +1,35 @@
+<view class="user">
+    <view class="header">
+        <view class="login-wrap" bindtap="goDetail">
+            <view class="user-img"> 
+                <image src="../../utils/images/defaultuser.png"></image>
+            </view>
+            <navigator url="../login/login">
+            <view class="user-name">去登录</view>
+            </navigator>
+        </view>
+    </view>
+    <view class="list section">
+        <navigator url="../login/login">
+            <view class="flex-con">
+                <span class="icon icon-map"></span>
+                <text>配送地址管理</text>
+                <span class="icon icon-right"></span>
+            </view>
+        </navigator>
+        <navigator url="../login/login">
+            <view class="flex-con">
+                <span class="icon icon-mendianyouhuiquan"></span>
+                <text>门店优惠券</text>
+                <span class="icon icon-right"></span>
+            </view>
+        </navigator>
+
+        <view class="flex-con">
+            <span class="icon icon-handshake"></span>
+            <text>招商加盟</text>
+            <span class="icon icon-right"></span>
+        </view>
+
+    </view>
+</view>
